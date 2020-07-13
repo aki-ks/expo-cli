@@ -65,7 +65,7 @@ type SplashResizeMode = 'cover' | 'contain';
 
 /**
  * 6 character long hex color string, eg: `'#000000'`
- * @pattern ^#|(&#x23;)\\d{6}$
+ * @pattern ^#|(&#x23;)\\x{6}$
  */
 type Color = string;
 
